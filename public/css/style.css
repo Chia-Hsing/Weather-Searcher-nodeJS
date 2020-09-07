@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;900&display=swap');
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background: url('../img/bg.jpg') center / cover fixed;
+}
+
+.wrap {
+    display: flex;
+    flex-direction: column;
+    max-width: 650px;
+    margin: 40px auto;
+}
+
+.container {
+    flex-grow: 1;
+    padding: 20px;
+    font-family: 'Noto Sans KR', sans-serif;
+    height: 550px;
+    border: 1px solid rgb(219, 101, 71);
+}
+
+h1 {
+    color: #f1f1e8;
+    font-size: 2.5em;
+}
+
+.container #message-1 {
+    color: #a7a79a;
+    font-size: 1.4em;
+    font-weight: bold;
+}
+
+.container #message-2,
+.container p {
+    color: #f1f1e8;
+    font-size: 1.2em;
+}
+
+body img {
+    width: 500px;
+}
+
+header {
+    margin: 20px 0;
+    padding: 10px;
+    border-bottom: 1px solid rgb(219, 101, 71);
+}
+
+header a {
+    margin-right: 10px;
+    text-decoration: none;
+}
+
+header a:visited {
+    color: #d4d4ca;
+}
+
+footer {
+    margin: 20px 0;
+    padding: 10px 30px;
+    background-color: rgb(219, 101, 71);
+    color: #333311;
+}
+
+input {
+    padding: 10px;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+    width: 200px;
+    font-size: 0.9em;
+}
+
+button {
+    cursor: pointer;
+    background-color: #171718;
+    padding: 11px;
+    color: #d4d4ca;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+    font-size: 0.9em;
+}
